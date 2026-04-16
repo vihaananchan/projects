@@ -1,0 +1,201 @@
+Date,Category,Description,Amount
+2024-01-01,Rent,Monthly rent,1179.66
+2024-01-02,Entertainment,Netflix,20.64
+2024-01-04,Health,Doctor visit,163.79
+2024-01-09,Shopping,Home decor,139.97
+2024-01-13,Transport,Gas station,70.87
+2024-01-14,Transport,Bus pass,11.32
+2024-01-17,Shopping,Amazon,76.39
+2024-01-21,Food,Coffee shop,46.93
+2024-01-23,Food,Takeaway,100.38
+2024-01-24,Health,Gym membership,143.87
+2024-01-25,Transport,Train ticket,41.0
+2024-01-27,Rent,Electricity,937.39
+2024-01-27,Entertainment,Netflix,76.16
+2024-02-02,Entertainment,Netflix,28.55
+2024-02-05,Food,Grocery store,89.17
+2024-02-05,Rent,Utilities,1426.59
+2024-02-07,Transport,Bus pass,38.21
+2024-02-08,Entertainment,Cinema,88.08
+2024-02-09,Entertainment,Cinema,31.09
+2024-02-10,Shopping,Clothing store,234.19
+2024-02-11,Transport,Uber,76.98
+2024-02-11,Rent,Water bill,677.5
+2024-02-12,Health,Dentist,135.97
+2024-02-14,Rent,Internet bill,1336.88
+2024-02-19,Entertainment,Spotify,23.09
+2024-02-22,Transport,Gas station,13.74
+2024-02-24,Health,Gym membership,106.46
+2024-02-24,Shopping,Amazon,268.87
+2024-02-24,Food,Takeaway,99.57
+2024-02-27,Shopping,Home decor,172.66
+2024-02-28,Health,Dentist,193.11
+2024-03-04,Rent,Electricity,745.31
+2024-03-05,Food,Bakery,22.52
+2024-03-06,Health,Dentist,38.14
+2024-03-06,Entertainment,Cinema,84.85
+2024-03-08,Shopping,Home decor,72.13
+2024-03-09,Rent,Monthly rent,1432.82
+2024-03-12,Entertainment,Spotify,18.57
+2024-03-18,Rent,Electricity,488.64
+2024-03-20,Transport,Parking,29.2
+2024-03-22,Entertainment,Video game,47.36
+2024-03-23,Health,Gym membership,39.04
+2024-03-26,Entertainment,Concert ticket,77.86
+2024-03-27,Shopping,Clothing store,158.24
+2024-03-28,Shopping,Amazon,186.65
+2024-04-03,Food,Takeaway,102.86
+2024-04-07,Food,Takeaway,108.44
+2024-04-07,Rent,Electricity,411.17
+2024-04-09,Health,Doctor visit,196.3
+2024-04-11,Health,Dentist,15.04
+2024-04-11,Shopping,Electronics,75.15
+2024-04-12,Food,Grocery store,114.21
+2024-04-14,Health,Doctor visit,187.59
+2024-04-15,Health,Vitamins,89.0
+2024-04-17,Transport,Bus pass,24.7
+2024-04-19,Transport,Parking,40.39
+2024-04-21,Entertainment,Netflix,58.58
+2024-04-22,Entertainment,Video game,42.94
+2024-04-22,Health,Dentist,161.97
+2024-04-26,Rent,Internet bill,1302.59
+2024-04-27,Rent,Monthly rent,1047.14
+2024-04-28,Entertainment,Concert ticket,34.13
+2024-04-29,Food,Grocery store,15.77
+2024-04-30,Shopping,Bookstore,107.2
+2024-05-01,Health,Pharmacy,194.11
+2024-05-01,Health,Gym membership,185.9
+2024-05-04,Shopping,Bookstore,177.1
+2024-05-06,Shopping,Home decor,140.52
+2024-05-07,Health,Vitamins,19.54
+2024-05-12,Entertainment,Cinema,38.71
+2024-05-13,Rent,Monthly rent,526.88
+2024-05-14,Transport,Parking,3.25
+2024-05-15,Transport,Train ticket,77.12
+2024-05-20,Shopping,Amazon,17.25
+2024-05-22,Rent,Monthly rent,965.57
+2024-05-22,Entertainment,Cinema,45.08
+2024-05-22,Rent,Internet bill,1350.79
+2024-05-30,Food,Takeaway,14.06
+2024-05-31,Shopping,Home decor,54.89
+2024-05-31,Entertainment,Concert ticket,43.23
+2024-06-03,Entertainment,Cinema,63.47
+2024-06-03,Shopping,Clothing store,39.55
+2024-06-03,Rent,Utilities,796.97
+2024-06-04,Entertainment,Video game,84.2
+2024-06-10,Food,Restaurant,99.51
+2024-06-15,Rent,Electricity,641.58
+2024-06-16,Transport,Uber,23.03
+2024-06-18,Transport,Uber,34.94
+2024-06-20,Shopping,Electronics,78.0
+2024-06-21,Health,Dentist,136.96
+2024-06-22,Food,Grocery store,51.3
+2024-06-23,Rent,Monthly rent,956.56
+2024-06-25,Food,Grocery store,73.61
+2024-06-29,Entertainment,Spotify,5.56
+2024-06-30,Shopping,Electronics,57.17
+2024-07-04,Shopping,Bookstore,266.78
+2024-07-04,Rent,Water bill,421.42
+2024-07-07,Transport,Bus pass,54.12
+2024-07-08,Food,Restaurant,67.74
+2024-07-11,Rent,Electricity,1145.08
+2024-07-13,Transport,Bus pass,10.87
+2024-07-13,Health,Gym membership,41.05
+2024-07-13,Transport,Parking,28.17
+2024-07-14,Entertainment,Video game,11.04
+2024-07-15,Health,Gym membership,146.49
+2024-07-20,Health,Dentist,15.12
+2024-07-21,Shopping,Electronics,79.22
+2024-07-23,Transport,Uber,53.82
+2024-07-27,Food,Coffee shop,94.71
+2024-07-29,Shopping,Home decor,112.75
+2024-07-29,Transport,Bus pass,63.24
+2024-08-02,Rent,Water bill,1338.79
+2024-08-04,Shopping,Bookstore,35.21
+2024-08-05,Entertainment,Video game,55.44
+2024-08-10,Rent,Internet bill,522.71
+2024-08-12,Transport,Bus pass,24.94
+2024-08-14,Health,Doctor visit,98.35
+2024-08-17,Shopping,Bookstore,131.66
+2024-08-20,Transport,Uber,32.27
+2024-08-20,Entertainment,Concert ticket,93.02
+2024-08-23,Transport,Gas station,65.88
+2024-08-23,Entertainment,Concert ticket,65.38
+2024-08-24,Shopping,Home decor,49.35
+2024-08-25,Food,Takeaway,20.33
+2024-08-25,Rent,Water bill,668.25
+2024-08-28,Food,Takeaway,105.3
+2024-08-31,Health,Gym membership,34.39
+2024-08-31,Transport,Uber,6.56
+2024-09-04,Shopping,Clothing store,65.55
+2024-09-05,Entertainment,Cinema,30.93
+2024-09-07,Food,Restaurant,87.81
+2024-09-12,Shopping,Electronics,71.66
+2024-09-15,Rent,Water bill,1073.92
+2024-09-16,Shopping,Electronics,254.08
+2024-09-16,Food,Grocery store,66.83
+2024-09-18,Shopping,Electronics,136.55
+2024-09-21,Shopping,Electronics,137.05
+2024-09-23,Shopping,Electronics,232.09
+2024-09-24,Shopping,Clothing store,136.29
+2024-09-25,Rent,Electricity,1474.27
+2024-09-28,Entertainment,Video game,92.34
+2024-10-01,Rent,Monthly rent,1202.7
+2024-10-01,Food,Grocery store,83.4
+2024-10-01,Food,Restaurant,27.03
+2024-10-01,Rent,Electricity,839.65
+2024-10-01,Food,Restaurant,41.29
+2024-10-02,Shopping,Electronics,188.61
+2024-10-04,Transport,Uber,47.6
+2024-10-09,Rent,Utilities,1215.35
+2024-10-10,Health,Vitamins,110.53
+2024-10-10,Health,Pharmacy,136.89
+2024-10-10,Rent,Monthly rent,1378.68
+2024-10-11,Rent,Water bill,1166.25
+2024-10-15,Food,Takeaway,76.43
+2024-10-16,Food,Takeaway,80.6
+2024-10-16,Shopping,Bookstore,243.6
+2024-10-17,Entertainment,Concert ticket,11.29
+2024-10-17,Rent,Utilities,463.72
+2024-10-18,Transport,Parking,12.23
+2024-10-21,Shopping,Amazon,258.45
+2024-10-23,Rent,Utilities,872.88
+2024-10-26,Transport,Train ticket,44.5
+2024-10-26,Food,Coffee shop,11.57
+2024-10-26,Entertainment,Spotify,90.96
+2024-10-30,Entertainment,Spotify,46.38
+2024-10-31,Shopping,Bookstore,296.49
+2024-11-02,Health,Dentist,184.51
+2024-11-05,Food,Coffee shop,102.46
+2024-11-06,Health,Gym membership,60.36
+2024-11-13,Transport,Train ticket,48.78
+2024-11-18,Health,Pharmacy,96.53
+2024-11-20,Shopping,Electronics,69.04
+2024-11-22,Food,Coffee shop,93.68
+2024-11-26,Entertainment,Netflix,68.97
+2024-11-26,Health,Gym membership,141.22
+2024-11-29,Entertainment,Video game,14.3
+2024-11-29,Rent,Utilities,1115.16
+2024-11-30,Health,Doctor visit,126.22
+2024-12-01,Entertainment,Spotify,28.18
+2024-12-04,Food,Coffee shop,66.27
+2024-12-05,Shopping,Amazon,92.3
+2024-12-06,Transport,Bus pass,36.21
+2024-12-06,Health,Gym membership,46.45
+2024-12-07,Rent,Utilities,1150.27
+2024-12-07,Shopping,Electronics,157.07
+2024-12-09,Transport,Bus pass,33.72
+2024-12-09,Health,Dentist,140.5
+2024-12-11,Transport,Uber,48.82
+2024-12-13,Food,Takeaway,43.65
+2024-12-14,Food,Restaurant,77.16
+2024-12-15,Transport,Bus pass,57.04
+2024-12-19,Entertainment,Cinema,93.25
+2024-12-19,Entertainment,Cinema,12.22
+2024-12-20,Food,Coffee shop,30.48
+2024-12-22,Entertainment,Cinema,21.71
+2024-12-25,Shopping,Clothing store,87.37
+2024-12-25,Rent,Internet bill,1368.35
+2024-12-25,Shopping,Bookstore,105.93
+2024-12-27,Transport,Parking,56.43
+2024-12-28,Health,Gym membership,11.37
