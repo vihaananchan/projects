@@ -1,50 +1,57 @@
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 import streamlit as st
-import yfinance as yf
+import os
 
-st.title("Market Dashboard")
+st.title("Stock Market Dashboard")
 
-ticker = st.sidebar.text_input("Stock Ticker", value="AAPL").upper()
-start_date = st.sidebar.date_input("Start Date", value=pd.to_datetime("2023-01-01"))
-end_date = st.sidebar.date_input("End Date", value=pd.to_datetime("today"))
+stocks = ["AAPL", "TSLA", "MSFT", "GOOGL", "AMZN"]
 
-data = yf.download(ticker, start=start_date, end=end_date)
+selected_stock = st.sidebar.selectbox("Select Stock", stocks)
 
-if data.empty:
-    st.error("No data found. Check the ticker symbol.")
+file_path = f"{selected_stock}.csv"
+
+if not os.path.exists(file_path):
+    st.error(f"{file_path} not found. Make sure you have downloaded and placed it in this folder.")
 else:
-    data = data[["Close"]].copy()
-    data.columns = ["Close"]
-    data.index = pd.to_datetime(data.index)
+    df = pd.read_csv(file_path)
+    df["Date"] = pd.to_datetime(df["Date"])
+    df = df.sort_values("Date")
 
-    data["Daily Return"] = data["Close"].pct_change()
-    data["Cumulative Return"] = (1 + data["Daily Return"]).cumprod() - 1
-    data["Volatility"] = data["Daily Return"].rolling(window=21).std() * (252 ** 0.5)
-    data["Peak"] = data["Close"].cummax()
-    data["Drawdown"] = (data["Close"] - data["Peak"]) / data["Peak"]
+    start_date = st.sidebar.date_input("Start Date", df["Date"].min())
+    end_date = st.sidebar.date_input("End Date", df["Date"].max())
+
+    filtered = df[
+        (df["Date"] >= pd.to_datetime(start_date)) &
+        (df["Date"] <= pd.to_datetime(end_date))
+    ].copy()
+
+    filtered["Daily Return"] = filtered["Close"].pct_change()
+    filtered["Cumulative Return"] = (1 + filtered["Daily Return"]).cumprod() - 1
+    filtered["Volatility"] = filtered["Daily Return"].rolling(window=21).std() * (252 ** 0.5)
+    filtered["Peak"] = filtered["Close"].cummax()
+    filtered["Drawdown"] = (filtered["Close"] - filtered["Peak"]) / filtered["Peak"]
 
     col1, col2, col3 = st.columns(3)
-    col1.metric("Total Return", f"{data['Cumulative Return'].iloc[-1]*100:.2f}%")
-    col2.metric("Max Drawdown", f"{data['Drawdown'].min()*100:.2f}%")
-    col3.metric("Current Volatility", f"{data['Volatility'].iloc[-1]*100:.2f}%")
+    col1.metric("Total Return", f"{filtered['Cumulative Return'].iloc[-1]*100:.2f}%")
+    col2.metric("Max Drawdown", f"{filtered['Drawdown'].min()*100:.2f}%")
+    col3.metric("Current Volatility", f"{filtered['Volatility'].iloc[-1]*100:.2f}%")
 
-    st.subheader(f"{ticker} Price")
-    fig1 = px.line(data, x=data.index, y="Close")
+    st.subheader(f"{selected_stock} Price")
+    fig1 = px.line(filtered, x="Date", y="Close")
     st.plotly_chart(fig1)
 
     st.subheader("Cumulative Return")
-    fig2 = px.line(data, x=data.index, y="Cumulative Return")
+    fig2 = px.line(filtered, x="Date", y="Cumulative Return")
     st.plotly_chart(fig2)
 
     st.subheader("Rolling Volatility (Annualised)")
-    fig3 = px.line(data, x=data.index, y="Volatility")
+    fig3 = px.line(filtered, x="Date", y="Volatility")
     st.plotly_chart(fig3)
 
     st.subheader("Drawdown")
-    fig4 = px.area(data, x=data.index, y="Drawdown")
+    fig4 = px.area(filtered, x="Date", y="Drawdown")
     st.plotly_chart(fig4)
 
     st.subheader("Raw Data")
-    st.dataframe(data)
+    st.dataframe(filtered)
